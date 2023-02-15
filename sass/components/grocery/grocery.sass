@@ -1,0 +1,65 @@
+.grocery
+    margin-top: 32px
+    visibility: hidden
+
+    &__item
+        text-transform: capitalize
+        font-weight: bold
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 85%
+        margin: 0 auto 8px auto
+        padding: 4px 16px
+        border-radius: 8px
+        &:hover
+            color: $font-color-primary
+            background: $sand-color-primary
+
+
+.show-container
+    visibility: visible
+
+
+.title
+    margin-bottom: 0
+    color: $font-color-primary
+    letter-spacing: 2px
+
+
+.edit-btn
+    color: $font-color-primary
+    background: transparent
+    border-color: transparent
+    font-size: 12px
+    margin: 0 3px
+    cursor: pointer
+    &:hover
+        color: $green-color-primary
+
+
+.delete-btn 
+    color: $font-color-primary
+    background: transparent
+    border-color: transparent
+    font-size: 12px
+    margin: 0 3px
+    cursor: pointer
+    &:hover
+        color: #cd212a
+
+
+.clear-btn
+    text-transform: capitalize
+    width: 160px
+    height: 24px
+    display: grid
+    align-items: center
+    background: transparent
+    border-color: transparent
+    color: $font-color-primary
+    margin: 0 auto
+    cursor: pointer
+    margin-top: 20px
+    &:hover
+        color: #cd212a

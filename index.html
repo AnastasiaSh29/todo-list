@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery Bud</title>
+    <!-- Load Styles -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- Set Up Form -->
+      <form class="form">
+        <p class="form__alert"></p>
+        <h1 class="form__header">grocery bud</h1>
+        <div class="form__control">
+          <input
+            type="text"
+            class="form__input"
+            id="grocery"
+            placeholder="Add item ..."
+          />
+          <button type="submit" class="submit-btn">submit</button>
+        </div>
+      </form>
+
+      <!-- Set Up List -->
+      <div class="grocery">
+        <div class="grocery__list"></div>
+        <!-- Set Up Clear Button-->
+        <button type="button" class="clear-btn">clear items</button>
+      </div>
+    </section>
+    <!-- Load Script -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+.form
+    text-align: center
+    color: $font-color-primary
+    margin-bottom: 24px
+
+
+    &__alert
+        text-transform: capitalize
+        margin-bottom: 16px
+        height: 20px
+        display: grid
+        align-items: center
+        text-align: center
+        border-radius: 5px
+        font-size: 12px
+
+    &__alert-danger
+        color: #cd212a
+        background: #f8d7da
+
+    &__alert-success
+        color: $green-color-primary
+        background: #d4edd4
+
+    &__header
+        text-transform: capitalize
+        font-size: 28px
+        margin-bottom: 25px
+
+    &__control
+        display: flex
+        justify-content: center
+        width: 90%
+        margin: 0 auto
+
+    &__input
+        padding: 5px
+        padding-left: 16px
+        background: $sand-color-primary
+        border-top-left-radius: 8px
+        border-bottom-left-radius: 8px
+        border-color: transparent
+        font-size: 16px
+        flex: 1 0 auto
+        color: $font-color-primary
+        &::placeholder
+            color: $font-color-primary
+
+
+    .submit-btn
+        text-transform: capitalize
+        border-color: transparent
+        background: #d36135
+        flex: 0 0 80px
+        display: grid
+        align-items: center
+        padding: 4px
+        border-top-right-radius: 8px
+        border-bottom-right-radius: 8px
+        cursor: pointer
+        font-size: 14px
+        &:hover
+            color: #fff
+            background: $green-color-primary
